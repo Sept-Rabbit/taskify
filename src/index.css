@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input_submit {
+  box-shadow: 0 0 10px black;
+  transition: 0.2s all;
+}
+
+.dragactive {
+  background-color: rgb(0, 221, 236);
+}
+
+.dragcomplete {
+  background-color: rgb(255, 38, 0);
+}
+
+.drag {
+  box-shadow: 0 0 20px black;
+}
